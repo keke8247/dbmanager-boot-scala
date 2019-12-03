@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: wang031209
+    url: jdbc:mysql://localhost:3306/dbmanager-scala
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
